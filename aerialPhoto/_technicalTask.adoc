@@ -1,11 +1,11 @@
-= Техническое задание: инженерно-геодезические изыскания методом цифровой аэрофотосъемки
+= Техническое задание: инженерно-геодезические изыскания методом цифровой аэрофотосъёмки
 :author: Максим Гришкин
 :email: FFFFF@bk.ru
 :revnumber: 0.1
 :revdate: 29.04.2019
 :revremark: Аппробированная версия
-:description: Техническое задание на выполнение аэросъемки с беспилотных летательных аппаратов
-:keywords: аэросъемка, БПЛА, техническое задание, ТЗ, геодезия
+:description: Техническое задание на выполнение цифровой аэросъемки
+:keywords: аэросъемка, техническое задание, ТЗ, геодезия, ортофотоплан
 
 // Путь к файлам данных
 :datadir: ./data 
@@ -25,7 +25,7 @@ include::{datadir}/contragents.csv[]
 |====================
 
 
-.Описание объектов работ
+=== Описание объектов работ
 
 [caption=""]
 [cols="^1,3,10"]
@@ -37,22 +37,22 @@ include::{datadir}/objects.csv[]
 |====================
 
 
-.Цель выполнения работ (оказания услуг)
+=== Цель выполнения работ (оказания услуг)
 
-include::workTarget.adoc[]
+include::workTarget.adoc[leveloffset=+3]
 
 == Исходные данные, передаваемые Заказчиком
 
-include::workSrcData.adoc[]
+include::workSrcData.adoc[leveloffset=+2]
 
 == Виды и содержание работ (услуг)
 
-include::worksType.adoc[]
+include::worksType.adoc[leveloffset=+2]
 
-== Сведения об обёмах работ (услуг)
+== Сведения об объёмах работ (услуг)
 
 [caption=""]
-[cols="^2,4,15,4"]
+[cols="^2,5,15,4"]
 [options="header"]
 [width="100%"]
 [%header,format=csv]
@@ -60,23 +60,23 @@ include::worksType.adoc[]
 include::{datadir}/objectVolume.csv[]
 |====================
 
-== Специальные требования к выполняемым работам (услугам)
+== Специальные требования к выполняемым работам (оказываемым услугам)
 
-include::worksRequirements.adoc[]
+include::worksRequirements.adoc[leveloffset=+2]
 
 == Контроль качества выполнения работ (оказания услуг)
 
-include::{sharedir}/geodesyQuality.adoc[]
+include::{sharedir}/geodesyQuality.adoc[leveloffset=+2]
 
 == Сроки выполнения работ (оказания услуг)
 
-include::worksTime.adoc[]
+include::worksTime.adoc[leveloffset=+2]
 
 == Выходная продукция (услуги)
 
-include::workOutput.adoc[]
+include::workOutput.adoc[leveloffset=+2]
 
 == Требования к выходной продукции (услугам):
 
-include::workOutputsRequirements.adoc[]
+include::workOutputsRequirements.adoc[leveloffset=+2]
 
