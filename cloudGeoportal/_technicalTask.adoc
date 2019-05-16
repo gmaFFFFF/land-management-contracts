@@ -49,24 +49,15 @@ include::worksType.adoc[leveloffset=+2]
 
 == Сведения об объёмах работ (услуг)
 
-???
-
-[caption=""]
-[cols="^2,5,15,4"]
-[options="header"]
-[width="100%"]
-[%header,format=csv]
-|====================
-include::{datadir}/objectVolume.csv[]
-|====================
+Подрядчик обеспечивает Заказчику доступ к геопорталу в течение 3 лет.
 
 == Специальные требования к выполняемым работам (услугам)
 
 include::worksRequirements.adoc[leveloffset=+2]
 
-== Контроль качества выполнения работ (оказания услуг)
+== Качество выполнения работ (оказания услуг)
 
-include::{sharedir}/geodesyQuality.adoc[leveloffset=+2]
+include::{sharedir}/quality.adoc[leveloffset=+2]
 
 == Сроки выполнения работ (оказания услуг)
 
@@ -74,7 +65,7 @@ include::worksTime.adoc[leveloffset=+2]
 
 == Выходная продукция (услуги)
 
-include::workOutput.adoc[leveloffset=+2]
+include::workOutputs.adoc[leveloffset=+2]
 
 == Требования к выходной продукции (услугам):
 

@@ -64,9 +64,9 @@ include::{datadir}/objectVolume.csv[]
 
 include::worksRequirements.adoc[leveloffset=+2]
 
-== Контроль качества выполнения работ (оказания услуг)
+== Качество выполнения работ (оказания услуг)
 
-include::{sharedir}/geodesyQuality.adoc[leveloffset=+2]
+include::{sharedir}/qualityGeodesy.adoc[leveloffset=+2]
 
 == Сроки выполнения работ (оказания услуг)
 
@@ -74,7 +74,7 @@ include::worksTime.adoc[leveloffset=+2]
 
 == Выходная продукция (услуги)
 
-include::workOutput.adoc[leveloffset=+2]
+include::workOutputs.adoc[leveloffset=+2]
 
 == Требования к выходной продукции (услугам):
 
