@@ -1,0 +1,8 @@
+[caption=""]
+[cols="^1,3,10"]
+[options="header"]
+[width="100%"]
+[%header,format=csv]
+|====================
+include::{datadir}/objects.csv[]
+|====================

@@ -26,14 +26,7 @@ include::{datadir}/contragents.csv[]
 
 === Описание объектов работ
 
-[caption=""]
-[cols="^1,3,10"]
-[options="header"]
-[width="100%"]
-[%header,format=csv]
-|====================
-include::{datadir}/objects.csv[]
-|====================
+include::workObj.adoc[leveloffset=+3]
 
 === Цель выполнения работ (оказания услуг)
 
@@ -49,7 +42,7 @@ include::worksType.adoc[leveloffset=+2]
 
 == Сведения об объёмах работ (услуг)
 
-Подрядчик обеспечивает функционирование геопортала в течение 3 лет.
+include::worksVolume.adoc[leveloffset=+2]
 
 == Специальные требования к выполняемым работам (услугам)
 
