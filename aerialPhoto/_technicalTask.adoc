@@ -60,7 +60,11 @@ include::worksTime.adoc[leveloffset=+2]
 
 include::workOutputs.adoc[leveloffset=+2]
 
-== Требования к выходной продукции (услугам):
+== Требования к выходной продукции (услугам)
 
 include::workOutputsRequirements.adoc[leveloffset=+2]
+
+== Дополнительные условия
+
+include::{sharedir}/termsAdditional.adoc[leveloffset=+2]
 
