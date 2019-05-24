@@ -1,0 +1,10 @@
+= Цифровая модель объекта работ
+
+. Цифровая модель объекта работ (модель) -- логико-математическое представление в цифровой форме физических (местоположение, длина, ширина, высота, материал и т.д.) и функциональных (назначение, мощность и т.д.) характеристик объекта и его конструктивных элементов при помощи совокупности геометрических элементов (полилиний, полигонов, точек, поверхностей и т.д.), связанной с ними семантической (информация о непространственных характеристиках) и топологической (информации о связности и соседстве объектов и их частей) информации;
+.  Информационное наполнение модели структурируется в реляционную модель данных, состоящую из набора таблиц. Таблицы, содержащие пространственный столбец (атрибут) могут называться слоями;
+. Формат и структура модели согласовывается Заказчиком дополнительно на основе подготовленных Подрядчиком предложений.
+. Концептуальная структура модели представлена в виде набора пространственных и непространственных таблиц согласно ER-диаграмме:
+
+//plantuml::img/modelER.puml[png]
+//Если диаграмма изменена, то надо заново генерировать ссылку
+image::https://www.plantuml.com/plantuml/png/0/bLLTQnf157rVsFymx5ChA4cUavAdl0HA8Va3IznGgRf5rvT-WDelsbW2RQ4bD4dDUs5Dt7IZTVqBT_vHpvrTTQOanXMYm_qwvvwvTxBT3Dn6qAfLRQlvh59_xZRScgZvTV_WQSElUI9ej3pTLVOEtLOrsF7hmMCN_YVxUrwZSdX7o5xbXIVMDtJlVYMeUdFVnffjsLR0Db4eq0abD97lAQAfxCet5D9OzcX2eJmMiWDJ6yOHksIRGa5_4Jz4z9ZYGe4h7LJTPbCuT4O3-GaEn0haHuYwf9YkyOSSBaMnOrilRKlWGpzec9wsjZBBBrKvHbp476I7HiYzqK91zZGxdO8e5uu0bG0en6zCaURzevhue28MdYyupwgTeoDL0r7p_DTwJwaucWg8kOJb2BJaPsWGfHHaTsbdgqYZyiI3dTs7CtR07glk8avQrku5pbC1kMvb2-iL9V_nfL236T8KkdTaJm5neH0bS0ySCUjAqKmW5IEF1BucyYqCRPGCCK0nzv08O4KeoQfsbRxnChNPKonc4L_DJ7bit0PTgBO629d2pIeahBGc-qAzMSrIgMGM-QOOioBX_Qd2p3q1xq4wd3bX7LOBg3TENhvzP2MgyUl592yjaKs3VCUN2COy1v7IKyqPBzLy5zGQupvYTU_BKtHMtp4ouMfipW6Ho8y87x9iolQRvmyDJTBXdzj_0Zz3Lk_GaNg1k6yJ_WmBthyFkAyofshSUpoM2SzlkX1fNrdHpKUYN77n09VrSvbTAxvgmbbtX5yiuhTKAZXv7uxSA6iPoefFRjf93afYynLW5gfa1sXxvnRg8SQEwGvZWNH7jXrv93SeBZYczMxT6YF2c633amsNRMrxzJB-I_y3[]

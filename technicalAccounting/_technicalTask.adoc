@@ -1,0 +1,70 @@
+= Техническое задание: на выполнение кадастровых работ в отношении объектов капитального строительства
+:author: Максим Гришкин
+:email: FFFFF@bk.ru
+:revnumber: 0.1
+:revdate: 23.05.2019
+:revremark: Аппробированная версия
+:description: Техническое задание на выполнение кадастровых работ в отношении объектов капитального строительства (ОКС). Результат используется для ввода ОКС в эксплуатацию и для постановки их на ГКУ.
+:keywords: ГКУ, кадастр, Росреестр, техплан, ОКС, техническое задание, ТЗ, ввод в эксплуатацию
+
+// Путь к файлам данных
+:datadir: ./data 
+:imagesdir: ./img
+:sharedir: ../share
+
+// Нумерация секций
+:sectnums:
+
+== Общие сведения
+
+[cols="2,8"]
+[width="100%"]
+[format=csv]
+|====================
+include::{datadir}/contragents.csv[]
+|====================
+
+=== Описание объектов работ
+
+include::workObj.adoc[leveloffset=+3]
+
+=== Цель выполнения работ (оказания услуг)
+
+include::workTarget.adoc[leveloffset=+3]
+
+== Исходные данные, передаваемые Заказчиком
+
+include::workSrcData.adoc[leveloffset=+2]
+
+== Виды и содержание работ (услуг)
+
+include::worksType.adoc[leveloffset=+2]
+
+== Сведения об объёмах работ (услуг)
+
+include::worksVolume.adoc[leveloffset=+2]
+
+== Специальные требования к выполняемым работам (оказываемым услугам)
+
+include::worksRequirements.adoc[leveloffset=+2]
+
+== Качество выполнения работ (оказания услуг)
+
+include::{sharedir}/qualityGeodesy.adoc[leveloffset=+2]
+
+== Сроки выполнения работ (оказания услуг)
+
+include::worksTime.adoc[leveloffset=+2]
+
+== Выходная продукция (услуги)
+
+include::workOutputs.adoc[leveloffset=+2]
+
+== Требования к выходной продукции (услугам)
+
+include::workOutputsRequirements.adoc[leveloffset=+2]
+
+== Дополнительные условия
+
+include::{sharedir}/termsAdditional.adoc[leveloffset=+2]
+
