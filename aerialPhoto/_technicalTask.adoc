@@ -68,3 +68,8 @@ include::workOutputsRequirements.adoc[leveloffset=+2]
 
 include::{sharedir}/termsAdditional.adoc[leveloffset=+2]
 
+[noheader]
+== Подписи сторон
+
+// Подписи сторон
+include::{sharedir}/signatures.adoc[]

@@ -50,7 +50,9 @@ include::worksRequirements.adoc[leveloffset=+2]
 
 == Качество выполнения работ (оказания услуг)
 
-include::{sharedir}/quality.adoc[leveloffset=+2]
+include::{sharedir}/quality.adoc[]
+
+. Срок предоставления гарантии качества -- в течение срока функционирования геопортала.
 
 == Сроки выполнения работ (оказания услуг)
 
@@ -68,3 +70,8 @@ include::workOutputsRequirements.adoc[leveloffset=+2]
 
 include::{sharedir}/termsAdditional.adoc[leveloffset=+2]
 
+[noheader]
+== Подписи сторон
+
+// Подписи сторон
+include::{sharedir}/signatures.adoc[]
