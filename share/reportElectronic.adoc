@@ -9,6 +9,6 @@
 [disc]
  * электронных образов документов: pdf, djvu;
  * векторных графических файлов: dwg/dxf, MapInfo tab, MapInfo mif/mid, Esri Shape;
- * растровых графических файлов: GeoTiff, jpg, ecw;
+ * растровых графических файлов: GeoTiff, tiff, ecw, jpg, png;
  * файлов c табличными данными: csv, xls (Microsoft Excel), ods (OpenDocument);
  * текстовых файлов: Markdown, AsciiDoctor, ReStructuredtext, doc (Microsoft Word), odt (OpenDocument).
