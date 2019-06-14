@@ -1,0 +1,65 @@
+// Путь к файлам данных ТЗ
+:data_tt_dir: {tt_dir}/data 
+:images_tt_dir: {tt_dir}/img
+
+// Нумерация секций
+:sectnums:
+
+== Общие сведения
+
+[cols="1,8"]
+[width="100%"]
+[format=csv]
+|====================
+include::{datadir}/contragents.csv[]
+|====================
+
+=== Описание объектов работ
+
+include::{tt_dir}/obj.adoc[leveloffset=+3]
+
+=== Цель выполнения работ (оказания услуг)
+
+include::{tt_dir}/target.adoc[leveloffset=+3]
+
+== Исходные данные, передаваемые Заказчиком
+
+include::{tt_dir}/srcData.adoc[leveloffset=+2]
+
+== Виды и содержание работ (услуг)
+
+include::{tt_dir}/worksType.adoc[leveloffset=+2]
+
+== Сведения об объёмах работ (услуг)
+
+include::{tt_dir}/vol.adoc[leveloffset=+2]
+
+== Специальные требования к выполняемым работам (оказываемым услугам)
+
+include::{tt_dir}/req.adoc[leveloffset=+2]
+
+== Качество выполнения работ (оказания услуг)
+
+include::{tt_dir}/quality.adoc[leveloffset=+2]
+
+== Сроки выполнения работ (оказания услуг)
+
+include::{tt_dir}/periodExec.adoc[leveloffset=+2]
+
+== Выходная продукция (услуги)
+
+include::{tt_dir}/out.adoc[leveloffset=+2]
+
+== Требования к выходной продукции (услугам)
+
+include::{tt_dir}/outReq.adoc[leveloffset=+2]
+
+== Дополнительные условия
+
+include::{tt_dir}/termsAdd.adoc[leveloffset=+2]
+
+[noheader]
+== Подписи сторон
+
+// Подписи сторон
+include::{datadir}/signatures.adoc[]

@@ -4,5 +4,5 @@
 [width="100%"]
 [%header,format=csv]
 |====================
-include::{datadir}/objectVolume.csv[]
+include::{data_tt_dir}/objectVolume.csv[]
 |====================

@@ -1,3 +1,13 @@
+// Путь к ТЗ
+:tt_dir: ../aerialPhoto
+// Путь к общей папке для всех ТЗ
+:share_tt_dir: {tt_dir}/../share
+
+// Общие пути
+:sharedir: {tt_dir}/../../share
+:datadir: {tt_dir}/../../data
+:imagesdir: {tt_dir}/../../img 
+
 = Техническое задание: инженерно-геодезические изыскания методом цифровой аэрофотосъёмки
 :author: Максим Гришкин
 :email: FFFFF@bk.ru
@@ -7,69 +17,4 @@
 :description: Техническое задание на выполнение цифровой аэросъемки
 :keywords: аэросъемка, техническое задание, ТЗ, геодезия, ортофотоплан
 
-// Путь к файлам данных
-:datadir: ./data 
-:imagesdir: ./img
-:sharedir: ../share
-
-// Нумерация секций
-:sectnums:
-
-== Общие сведения
-
-[cols="1,8"]
-[width="100%"]
-[format=csv]
-|====================
-include::{datadir}/contragents.csv[]
-|====================
-
-=== Описание объектов работ
-
-include::workObj.adoc[leveloffset=+3]
-
-=== Цель выполнения работ (оказания услуг)
-
-include::workTarget.adoc[leveloffset=+3]
-
-== Исходные данные, передаваемые Заказчиком
-
-include::workSrcData.adoc[leveloffset=+2]
-
-== Виды и содержание работ (услуг)
-
-include::worksType.adoc[leveloffset=+2]
-
-== Сведения об объёмах работ (услуг)
-
-include::worksVolume.adoc[leveloffset=+2]
-
-== Специальные требования к выполняемым работам (оказываемым услугам)
-
-include::worksRequirements.adoc[leveloffset=+2]
-
-== Качество выполнения работ (оказания услуг)
-
-include::{sharedir}/qualityGeodesy.adoc[leveloffset=+2]
-
-== Сроки выполнения работ (оказания услуг)
-
-include::worksTime.adoc[leveloffset=+2]
-
-== Выходная продукция (услуги)
-
-include::workOutputs.adoc[leveloffset=+2]
-
-== Требования к выходной продукции (услугам)
-
-include::workOutputsRequirements.adoc[leveloffset=+2]
-
-== Дополнительные условия
-
-include::{sharedir}/termsAdditional.adoc[leveloffset=+2]
-
-[noheader]
-== Подписи сторон
-
-// Подписи сторон
-include::{sharedir}/signatures.adoc[]
+include::{share_tt_dir}/structTT_A.adoc[]

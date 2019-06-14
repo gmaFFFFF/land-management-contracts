@@ -1,0 +1,2 @@
+
+include::{share_tt_dir}/termsAdd.adoc[]
