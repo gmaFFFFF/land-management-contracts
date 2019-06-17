@@ -3,10 +3,7 @@
 // Путь к общей папке для всех ТЗ
 :share_tt_dir: {tt_dir}/../share
 
-// Общие пути
-:sharedir: {tt_dir}/../../share
-:datadir: {tt_dir}/../../data
-:imagesdir: {tt_dir}/../../img 
+include::{share_tt_dir}/paths.adoc[]
 
 = Техническое задание: инженерно-геодезические изыскания методом цифровой аэрофотосъёмки
 :author: Максим Гришкин

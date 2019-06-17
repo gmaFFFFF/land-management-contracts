@@ -1,7 +1,3 @@
-// Путь к файлам данных ТЗ
-:data_tt_dir: {tt_dir}/data 
-:images_tt_dir: {tt_dir}/img
-
 // Нумерация секций
 :sectnums:
 
