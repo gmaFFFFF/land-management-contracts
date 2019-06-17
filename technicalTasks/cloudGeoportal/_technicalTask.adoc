@@ -1,3 +1,10 @@
+// Путь к ТЗ
+:tt_dir: {docdir}
+// Путь к общей папке для всех ТЗ
+:share_tt_dir: {tt_dir}/../share
+
+include::{share_tt_dir}/paths.adoc[]
+
 = Техническое задание: создание и обслуживание геопортала для размещения материалов аэросъёмки и других пространственных данных
 :author: Максим Гришкин
 :email: FFFFF@bk.ru
@@ -7,71 +14,4 @@
 :description: Техническое задание на геопортал для размещение материалов аэросъёмки
 :keywords: ГИС, геопортал, 3d модель
 
-// Путь к файлам данных
-:datadir: ./data 
-:imagesdir: ./img
-:sharedir: ../share
-
-// Нумерация секций
-:sectnums:
-
-== Общие сведения
-
-[cols="1,8"]
-[width="100%"]
-[format=csv]
-|====================
-include::{datadir}/contragents.csv[]
-|====================
-
-=== Описание объектов работ
-
-include::workObj.adoc[leveloffset=+3]
-
-=== Цель выполнения работ (оказания услуг)
-
-include::workTarget.adoc[leveloffset=+3]
-
-== Исходные данные, передаваемые Заказчиком
-
-include::workSrcData.adoc[leveloffset=+2]
-
-== Виды и содержание работ (услуг)
-
-include::worksType.adoc[leveloffset=+2]
-
-== Сведения об объёмах работ (услуг)
-
-include::worksVolume.adoc[leveloffset=+2]
-
-== Специальные требования к выполняемым работам (услугам)
-
-include::worksRequirements.adoc[leveloffset=+2]
-
-== Качество выполнения работ (оказания услуг)
-
-include::{sharedir}/quality.adoc[]
-
-. Срок предоставления гарантии качества -- в течение срока функционирования геопортала.
-
-== Сроки выполнения работ (оказания услуг)
-
-include::worksTime.adoc[leveloffset=+2]
-
-== Выходная продукция (услуги)
-
-include::workOutputs.adoc[leveloffset=+2]
-
-== Требования к выходной продукции (услугам)
-
-include::workOutputsRequirements.adoc[leveloffset=+2]
-
-== Дополнительные условия
-
-include::{sharedir}/termsAdditional.adoc[leveloffset=+2]
-
-[noheader]
-== Подписи сторон
-
-// Подписи сторон
-include::{sharedir}/signatures.adoc[]
+include::{share_tt_dir}/structTT_A.adoc[]

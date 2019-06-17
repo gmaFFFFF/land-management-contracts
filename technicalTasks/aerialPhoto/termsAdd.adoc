@@ -1,2 +1,6 @@
+// Дополнительные условия
 
 include::{share_tt_dir}/termsAdd.adoc[]
++
+// Дополнительные условия выполнения полевых работ
+include::{share_tt_dir}/termsAddField.adoc[]

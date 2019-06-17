@@ -1,5 +1,5 @@
 // Путь к ТЗ
-:tt_dir: ../aerialPhoto
+:tt_dir: {docdir}
 // Путь к общей папке для всех ТЗ
 :share_tt_dir: {tt_dir}/../share
 

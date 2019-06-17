@@ -1,6 +1,6 @@
 // Качество выполнения работ (услуг)
 
-include::{share_tt_dir}/qualityGeodesy.adoc[]
+include::{share_tt_dir}/quality.adoc[]
 +
 // Срок гарантии качества выполнения работ
 include::{tt_dir}/qualityAssurance.adoc[]
