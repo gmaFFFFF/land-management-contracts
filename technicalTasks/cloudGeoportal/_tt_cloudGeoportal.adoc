@@ -5,6 +5,8 @@
 
 include::{share_tt_dir}/paths.adoc[]
 
+include::{sharedir}/appendixHeader.adoc[]
+
 = Техническое задание: создание и обслуживание геопортала для размещения материалов аэросъёмки и других пространственных данных
 :author: Максим Гришкин
 :email: FFFFF@bk.ru
