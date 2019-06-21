@@ -1,3 +1,15 @@
+:noheader:
+:tt_title: Техническое задание
+:tt_subtitle: создание и обслуживание геопортала для размещения материалов аэросъёмки и других пространственных данных
+:doctitle: {tt_title}: {subtitle} 
+:author: Максим Гришкин
+:email: FFFFF@bk.ru
+:revnumber: 0.1
+:revdate: 07.05.2019
+:revremark: Пробная версия
+:description: Техническое задание на геопортал для размещение материалов аэросъёмки
+:keywords: ГИС, геопортал, 3d модель
+
 // Путь к ТЗ
 :tt_dir: {docdir}
 // Путь к общей папке для всех ТЗ
@@ -7,13 +19,6 @@ include::{share_tt_dir}/paths.adoc[]
 
 include::{sharedir}/appendixHeader.adoc[]
 
-= Техническое задание: создание и обслуживание геопортала для размещения материалов аэросъёмки и других пространственных данных
-:author: Максим Гришкин
-:email: FFFFF@bk.ru
-:revnumber: 0.1
-:revdate: 07.05.2019
-:revremark: Пробная версия
-:description: Техническое задание на геопортал для размещение материалов аэросъёмки
-:keywords: ГИС, геопортал, 3d модель
+include::{share_tt_dir}/header.adoc[]
 
 include::{share_tt_dir}/structTT_A.adoc[]

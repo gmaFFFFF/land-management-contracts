@@ -1,3 +1,15 @@
+:noheader:
+:tt_title: Техническое задание
+:tt_subtitle: инженерно-геодезические изыскания методом цифровой аэрофотосъёмки
+:doctitle: {tt_title}: {subtitle} 
+:author: Максим Гришкин
+:email: FFFFF@bk.ru
+:revnumber: 0.1
+:revdate: 29.04.2019
+:revremark: Аппробированная версия
+:description: Техническое задание на выполнение цифровой аэросъемки
+:keywords: аэросъемка, техническое задание, ТЗ, геодезия, ортофотоплан
+
 // Путь к ТЗ
 :tt_dir: {docdir}
 // Путь к общей папке для всех ТЗ
@@ -7,13 +19,6 @@ include::{share_tt_dir}/paths.adoc[]
 
 include::{sharedir}/appendixHeader.adoc[]
 
-= Техническое задание: инженерно-геодезические изыскания методом цифровой аэрофотосъёмки
-:author: Максим Гришкин
-:email: FFFFF@bk.ru
-:revnumber: 0.1
-:revdate: 29.04.2019
-:revremark: Аппробированная версия
-:description: Техническое задание на выполнение цифровой аэросъемки
-:keywords: аэросъемка, техническое задание, ТЗ, геодезия, ортофотоплан
+include::{share_tt_dir}/header.adoc[]
 
 include::{share_tt_dir}/structTT_A.adoc[]
