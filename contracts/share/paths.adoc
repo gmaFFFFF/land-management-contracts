@@ -1,0 +1,10 @@
+// Пути к папкам
+
+// Общие пути
+:sharedir: {cnt_dir}/../../share
+:datadir: {cnt_dir}/../../data
+:imagesdir: {cnt_dir}/../../img 
+
+// Путь к файлам данных ТЗ
+:data_cnt_dir: {cnt_dir}/data 
+:images_cnt_dir: {cnt_dir}/img

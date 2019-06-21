@@ -1,0 +1,18 @@
+:noheader:
+:cnt_title: Договор подряда
+:cnt_subtitle: инженерно-геодезические изыскания методом цифровой аэрофотосъёмки
+:doctitle: {cnt_title}: {cnt_subtitle} 
+:author: Максим Гришкин
+:email: FFFFF@bk.ru
+:revnumber: 0.1
+:revdate: 29.04.2019
+:revremark: Аппробированная версия
+:description: Договор подряда
+:keywords: договор, подряд
+
+// Путь к ТЗ
+:cnt_dir: {docdir}
+// Путь к общей папке для всех ТЗ
+:share_cnt_dir: {cnt_dir}/../share
+
+include::{share_cnt_dir}/structCnt_A.adoc[]

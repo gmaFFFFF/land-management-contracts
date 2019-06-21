@@ -1,0 +1,64 @@
+// Структура договора. Версия А
+
+include::{share_cnt_dir}/paths.adoc[]
+
+include::{sharedir}/appendixHeader.adoc[]
+
+include::{share_cnt_dir}/header.adoc[]
+
+// Нумерация секций
+:sectnums:
+
+include::{datadir}/preamble.adoc[]
+заключили настоящий договор (далее – Договор) о нижеследующем:
+
+== Предмет Договора
+
+include::{data_cnt_dir}/subj.adoc[leveloffset=+3]
+
+== Сроки действия Договора и выполнения работ
+
+include::{cnt_dir}/periodExec.adoc[leveloffset=+3]
+
+== Обязательства Сторон
+
+include::{cnt_dir}/obligatParties.adoc[leveloffset=+2]
+
+== Цена Договора и порядок расчётов
+
+include::{cnt_dir}/price.adoc[leveloffset=+2]
+
+== Порядок сдачи-приёмки выполненных работ
+
+include::{cnt_dir}/inspect.adoc[leveloffset=+2]
+
+== Ответственность Сторон
+
+include::{cnt_dir}/responsib.adoc[leveloffset=+2]
+
+== Порядок разрешения споров
+
+include::{cnt_dir}/debate.adoc[leveloffset=+2]
+
+== Изменение и расторжение Договора
+
+include::{cnt_dir}/changeTerm.adoc[leveloffset=+2]
+
+== Обстоятельства непреодолимой силы
+
+include::{cnt_dir}/forceMajeure.adoc[leveloffset=+2]
+
+== Дополнительные условия
+
+include::{cnt_dir}/termsAdd.adoc[leveloffset=+2]
+
+== Юридические адреса и банковские реквизиты Сторон
+
+include::{cnt_dir}/requisites.adoc[leveloffset=+2]
+
+:sectnums!:
+
+== Подписи сторон
+
+// Подписи сторон
+include::{datadir}/signatures.adoc[]
