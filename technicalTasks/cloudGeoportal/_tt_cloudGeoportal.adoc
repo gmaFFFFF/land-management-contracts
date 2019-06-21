@@ -1,7 +1,7 @@
 :noheader:
 :tt_title: Техническое задание
 :tt_subtitle: создание и обслуживание геопортала для размещения материалов аэросъёмки и других пространственных данных
-:doctitle: {tt_title}: {subtitle} 
+:doctitle: {tt_title}: {tt_subtitle} 
 :author: Максим Гришкин
 :email: FFFFF@bk.ru
 :revnumber: 0.1
@@ -14,11 +14,5 @@
 :tt_dir: {docdir}
 // Путь к общей папке для всех ТЗ
 :share_tt_dir: {tt_dir}/../share
-
-include::{share_tt_dir}/paths.adoc[]
-
-include::{sharedir}/appendixHeader.adoc[]
-
-include::{share_tt_dir}/header.adoc[]
 
 include::{share_tt_dir}/structTT_A.adoc[]

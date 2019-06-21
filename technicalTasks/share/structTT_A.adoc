@@ -1,5 +1,11 @@
 // Структура технического задания. Версия А
 
+include::{share_tt_dir}/paths.adoc[]
+
+include::{sharedir}/appendixHeader.adoc[]
+
+include::{share_tt_dir}/header.adoc[]
+
 // Нумерация секций
 :sectnums:
 
@@ -56,7 +62,8 @@ include::{tt_dir}/outReq.adoc[leveloffset=+2]
 
 include::{tt_dir}/termsAdd.adoc[leveloffset=+2]
 
-[noheader]
+:sectnums!:
+
 == Подписи сторон
 
 // Подписи сторон
