@@ -1,0 +1,3 @@
+// Дополнительные условия
+
+include::{share_tt_dir}/termsAdd.adoc[tags=share;field]
