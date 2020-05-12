@@ -12,5 +12,12 @@
  * электронных образов документов: pdf, djvu;
  * векторных графических файлов: dwg/dxf, MapInfo tab, MapInfo mif/mid, Esri Shape;
  * растровых графических файлов: GeoTiff, tiff, ecw, jpg, png;
- * файлов c табличными данными: csv, xls (Microsoft Excel), ods (OpenDocument);
- * текстовых файлов: Markdown, AsciiDoctor, ReStructuredtext, doc (Microsoft Word), odt (OpenDocument).
+ * файлов c табличными данными: csv, ods (OpenDocument), xlsx (Microsoft Excel);
+ * текстовых файлов: Markdown, AsciiDoctor, ReStructuredtext, odt (OpenDocument), docx (Microsoft Word).
+
+. Материальные носители информации:
+[disc]
+// tag::flash[]
+ * переносные накопители на жестких магнитных дисках (hdd) и запоминающие устройства с флеш-памятью, поддерживающие интерфейс USB;
+// end::flash[]
+* оптические компакт-диски (CD, DVD).
