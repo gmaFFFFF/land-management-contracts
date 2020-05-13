@@ -50,11 +50,16 @@ include::{share_cntCurType_dir}/forceMajeure.adoc[leveloffset=+2]
 
 include::{share_cntCurType_dir}/termsAdd.adoc[leveloffset=+2]
 
+//Прекратить нумерацию секций
+:sectnums!:
+
+== Приложения
+
+include::{data_cnt_dir}/apps.adoc[leveloffset=+2]
+
 == Юридические адреса и банковские реквизиты Сторон
 
 include::{share_cntCurType_dir}/requisites.adoc[leveloffset=+2]
-
-:sectnums!:
 
 == Подписи сторон
 
