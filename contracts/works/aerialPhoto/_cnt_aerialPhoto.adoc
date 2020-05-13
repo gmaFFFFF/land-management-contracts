@@ -10,9 +10,16 @@
 :description: Договор подряда
 :keywords: договор, подряд
 
-// Путь к ТЗ
+// Путь к договору
 :cnt_dir: {docdir}
-// Путь к общей папке для всех ТЗ
-:share_cnt_dir: {cnt_dir}/../share
 
-include::{share_cnt_dir}/structCnt_A.adoc[]
+// Путь к договорам текущего типа (подряд, услуги)
+:cnt_curType_dir: {cnt_dir}/..
+
+//Путь ко всем договорам
+:cnt_allType_dir: {cnt_curType_dir}/..
+
+// Путь к общей папке для всех договоров
+:share_cntAllType_dir: {cnt_allType_dir}/share
+
+include::{share_cntAllType_dir}/structCnt_A.adoc[]

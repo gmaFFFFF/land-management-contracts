@@ -1,10 +1,13 @@
 // Пути к папкам
 
 // Общие пути
-:sharedir: {cnt_dir}/../../share
-:datadir: {cnt_dir}/../../data
-:imagesdir: {cnt_dir}/../../img 
+:sharedir: {cnt_allType_dir}/../share
+:datadir: {cnt_allType_dir}/../data
+:imagesdir: {cnt_allType_dir}/../img
 
-// Путь к файлам данных ТЗ
+// Путь к общим файлам для всех договоров текущего типа
+:share_cntCurType_dir: {cnt_curType_dir}/share
+
+// Путь к файлам данных договора
 :data_cnt_dir: {cnt_dir}/data 
 :images_cnt_dir: {cnt_dir}/img
