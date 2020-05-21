@@ -1,0 +1,25 @@
+:noheader:
+:cnt_title: Договор подряда
+:cnt_subtitle: выполнение кадастровых работ
+:doctitle: {cnt_title}: {cnt_subtitle} 
+:author: Максим Гришкин
+:email: FFFFF@bk.ru
+:revnumber: 0.1
+:revdate: 13.05.2020
+:revremark: Новая версия
+:description: Договор подряда на выполнение кадастровых работ
+:keywords: договор, подряд, кадастр, межевание
+
+// Путь к договору
+:cnt_dir: {docdir}
+
+// Путь к договорам текущего типа (подряд, услуги)
+:cnt_curType_dir: {cnt_dir}/..
+
+//Путь ко всем договорам
+:cnt_allType_dir: {cnt_curType_dir}/..
+
+// Путь к общей папке для всех договоров
+:share_cntAllType_dir: {cnt_allType_dir}/share
+
+include::{share_cntAllType_dir}/structCnt_A_govContract.adoc[]

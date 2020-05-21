@@ -1,0 +1,67 @@
+// Структура договора. Версия А
+
+include::{share_cntAllType_dir}/paths.adoc[]
+
+include::{share_cntAllType_dir}/header.adoc[]
+
+// Нумерация секций
+:sectnums:
+
+include::{datadir}/preamble.adoc[]
+с соблюдением требований Гражданского кодекса Российской Федерации, Федерального закона от 05.04.2013 № 44-ФЗ «О контрактной системе в сфере закупок товаров, работ, услуг для обеспечения государственных и муниципальных нужд» заключили настоящий договор (далее – Договор) о нижеследующем:
+
+== Предмет Договора
+
+include::{data_cnt_dir}/subj.adoc[leveloffset=+3]
+
+== Цена Договора
+
+include::{share_cntCurType_dir}/price.adoc[leveloffset=+2]
+
+== Сроки действия Договора и выполнения работ
+
+include::{share_cntCurType_dir}/periodExec.adoc[leveloffset=+3]
+
+== Права и обязанности Сторон
+
+include::{share_cntCurType_dir}/obligatParties.adoc[leveloffset=+2]
+
+== Порядок сдачи-приёмки выполненных работ и расчётов
+
+include::{share_cntCurType_dir}/inspect.adoc[leveloffset=+2]
+
+== Ответственность Сторон
+
+include::{share_cntCurType_dir}/responsib.adoc[leveloffset=+2, tags=**;!*;govContract]
+
+== Изменение и расторжение Договора, перемена лиц в Договоре
+
+include::{share_cntCurType_dir}/changeTerm.adoc[leveloffset=+2]
+
+== Обстоятельства непреодолимой силы
+
+include::{share_cntCurType_dir}/forceMajeure.adoc[leveloffset=+2]
+
+== Порядок разрешения споров
+
+include::{share_cntCurType_dir}/debate.adoc[leveloffset=+2]
+
+== Дополнительные условия
+
+include::{share_cntCurType_dir}/termsAdd.adoc[leveloffset=+2, tags=**;!*;govContract]
+
+//Прекратить нумерацию секций
+:sectnums!:
+
+== Приложения
+
+include::{data_cnt_dir}/apps.adoc[leveloffset=+2]
+
+== Юридические адреса и банковские реквизиты Сторон
+
+include::{share_cntCurType_dir}/requisites.adoc[leveloffset=+2]
+
+== Подписи сторон
+
+// Подписи сторон
+include::{datadir}/signatures.adoc[]
