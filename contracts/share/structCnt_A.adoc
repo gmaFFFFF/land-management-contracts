@@ -14,19 +14,19 @@ include::{datadir}/preamble.adoc[]
 
 include::{data_cnt_dir}/subj.adoc[leveloffset=+3]
 
+== Цена Договора
+
+include::{share_cntCurType_dir}/price.adoc[leveloffset=+2]
+
 == Сроки действия Договора и выполнения работ
 
 include::{share_cntCurType_dir}/periodExec.adoc[leveloffset=+3]
 
-== Обязательства Сторон
+== Права и обязанности Сторон
 
 include::{share_cntCurType_dir}/obligatParties.adoc[leveloffset=+2]
 
-== Цена Договора и порядок расчётов
-
-include::{share_cntCurType_dir}/price.adoc[leveloffset=+2]
-
-== Порядок сдачи-приёмки выполненных работ
+== Порядок сдачи-приёмки выполненных работ и расчётов
 
 include::{share_cntCurType_dir}/inspect.adoc[leveloffset=+2]
 
@@ -34,17 +34,17 @@ include::{share_cntCurType_dir}/inspect.adoc[leveloffset=+2]
 
 include::{share_cntCurType_dir}/responsib.adoc[leveloffset=+2]
 
-== Порядок разрешения споров
+== Изменение и расторжение Договора, перемена лиц в Договоре
 
-include::{share_cntCurType_dir}/debate.adoc[leveloffset=+2]
-
-== Изменение и расторжение Договора
-
-include::{share_cntCurType_dir}/changeTerm.adoc[leveloffset=+2]
+include::{share_cntCurType_dir}/changeTerm.adoc[leveloffset=+2, tags=**;!govContract]
 
 == Обстоятельства непреодолимой силы
 
 include::{share_cntCurType_dir}/forceMajeure.adoc[leveloffset=+2]
+
+== Порядок разрешения споров
+
+include::{share_cntCurType_dir}/debate.adoc[leveloffset=+2]
 
 == Дополнительные условия
 
