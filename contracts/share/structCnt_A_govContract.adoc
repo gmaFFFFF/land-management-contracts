@@ -36,7 +36,7 @@ include::{share_cntCurType_dir}/responsib.adoc[leveloffset=+2, tags=**;!*;govCon
 
 == Изменение и расторжение Договора, перемена лиц в Договоре
 
-include::{share_cntCurType_dir}/changeTerm.adoc[leveloffset=+2]
+include::{share_cntCurType_dir}/changeTerm.adoc[leveloffset=+2, tags=**;!*;govContract]
 
 == Обстоятельства непреодолимой силы
 
