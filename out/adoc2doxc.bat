@@ -10,6 +10,9 @@ echo На компьютере должен стоять asciidoctorj и pandoc
 echo Название конвертируемого файла должно начинаться на подчеркивание (_)
 echo =======================================================================
 echo.
+
+set stylefile=%~pd0adoc2docx_style.docx
+
 for /R .\..\ %%i in (_*.adoc) do (  
     set file=%%i
     set newfile=%%~ni%.docx
@@ -29,8 +32,8 @@ for /R .\..\ %%i in (_*.adoc) do (
     echo.
     echo Коневертируем временный Docbook в формат docx с помощью pandoc
     echo.
-    pandoc --from docbook --to docx --output "!newfile!" "!tempfile!" --number-sections
-    echo Очищаем мусор
+    pandoc --from docbook --to docx --output "!newfile!" "!tempfile!" --reference-doc=%stylefile%
+    echo. Очищаем мусор
     del "!tempfile!"
     echo.
 )
